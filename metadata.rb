@@ -1,7 +1,10 @@
-name             'create'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+name             'mmm-appserver'
+maintainer       'Pranjal Mittal'
+maintainer_email 'mittalp@onid.oregonstate.edu'
 license          'All rights reserved'
-description      'Installs/Configures create'
-long_description 'Installs/Configures create'
+description      'To setup MMM Django Appserver'
+long_description 'Creates a Makemymails Appserver instance and installs, nginx, gunicorn, pythin deps, etc and ... runs the server.'
 version          '0.1.0'
+
+depends           "apt"
+depends           "python"
